@@ -33,7 +33,40 @@ app.get('/user/:id', (req,res) => {
 });
 
 
+app.get('/time', (req,res) => {
+    //Write method for time
+    let dateObj = new Date();
+    let second = dateObj.getSeconds();
+    let = minute = dateObj.getMinutes();
+    let hour = dateObj.getHours();
+    res.send("Hour: " + hour + " " + "minute: " + minute + " " + "Second: "  + second );
+   
+});
 
+const weekdays = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday"];
+app.get('/day', (req,res) => {
+    //write method for day
+    const todaysweekday = new Date().getDay(); 
+    res.send({day : weekdays[todaysweekday]});
+});
+
+const Months = ["Januar", "Februar", "Marts", "April", "May", "juni", "Juli", "August", "september", "oktober", "november", "december"];
+app.get('/month', (req,res) => {
+    //Write method for month
+    const thismonth = new Date().getMonth();
+    res.send({month : Months[thismonth]}); 
+});
+
+
+
+// Getting the API version in a string output
+/*
+const APIversion = [process.version]
+
+app.get('/about', (req,res) => {
+    res.send({NodeJS : version[APIversion]});
+})
+*/
 
 // Concludes what port number the server is running on
 app.listen(8080, () => {
