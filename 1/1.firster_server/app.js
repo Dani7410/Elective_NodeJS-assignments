@@ -9,7 +9,7 @@ const users = [
     {id:3, firstName: 'Anna', lastName: 'Frydendal' },
     {id:4, firstName: 'Jens', lastName: 'Jakobsen' },
     {id:5, firstName: 'Caroline', lastName: 'Petersen'},
-    {id:6, firstName: 'Diana', lastName: 'Lækkersen' }
+    {id:6, firstName: 'Diana', lastName: 'petersen' }
 ]
     
 

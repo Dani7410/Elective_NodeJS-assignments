@@ -32,6 +32,9 @@ app.get('/month', (req,res) => {
 });
 
 
-app.listen(3000, () => {
+app.listen(3000, (error) => {
+    if(error){
+        console.log(error)
+    }
     console.log('server running on 3000'); 
 });
