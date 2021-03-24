@@ -26,6 +26,14 @@ app.get("/siteInfo4", (req,res)=>{
     res.sendFile(__dirname + "/public/siteInfo4/siteInfo4.html")
 });
 
+app.get("/siteInfo5", (req,res)=>{
+    res.sendFile(__dirname + "/public/siteInfo5/siteInfo5.html")
+});
+
+app.get("/siteInfo6", (req,res)=>{
+    res.sendFile(__dirname + "/public/siteInfo6/siteInfo6.html")
+});
+
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, error => {

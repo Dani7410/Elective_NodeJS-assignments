@@ -9,7 +9,7 @@
     <title>Node.js app</title>
 </head>
 <body>
-   
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="/welcome"><img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png" alt="" width="100" height="50" class="d-inline-block align-top">
@@ -43,68 +43,38 @@
         </div>
       </nav>
     <div class="a">
-    <h1>Development enivronment</h1>
+    <h1>CRUD api</h1>
     </div>
+
     <div class="row">
       <div class="side">
-        <h2>About Node.js</h2>
-        <h5>Link:</h5>
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
         <a href="https://nodejs.org/en/">
           <div class="fakeimg" style="background-image: url(../Pictures/picture12.jpg);"></div>
           </a>
-          <p>Here you can find infomation on Node.js</p>
-          <h3>Check out npm</h3>
-          <p>Link:</p>
+          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          <h3>More Text</h3>
+          <p>Lorem ipsum dolor sit ame.</p>
           <a href="https://www.npmjs.com/">
-          <div class="fakeimg" style="background-image: url(../Pictures/picture15.png); height: 15%;"></div><br>
+          <div class="fakeimg" style="background-image: url(../Pictures/picture15.png); height: 10%;"></div><br>
           </a>
           <a href="https://nodemon.io/">
-          <div class="fakeimg" style="background-image: url(../Pictures/nodemon.jpg); height: 25%;"></div><br>
+          <div class="fakeimg" style="background-image: url(../Pictures/nodemon.jpg); height: 20%;"></div><br>
           </a>
       </div>
       <div class="main">
-        <h2>App</h2>
-        <h5>Setup</h5>
-        <div class="fakeimg" style="background-image: url(../Pictures/site2pic3.jpg); max-width: 50%; max-height:50%;"></div> 
-        <p>How to set up app.js</p>
-        <p>
-          App.js contains the website event handling file. If configures all our routes on the website. 
-          In the first line of the pictures, you see a variable instantiating express. It gives us the option to use express modules (place it in the top of the file). On the second line we see a new variable called “app”. This is how we are going to use the modules.
-          And then on third we are telling app should also include our “public” directory which consist of html pages and other fun stuff. 
-          Now we have made it possible to start routing. Except we need to give it a port to serve the website. 
-          </p>        
-        <br>
-        <h2>Port</h2>
-        <h5>Setup</h5>
-        <div class="fakeimg" style="background-image: url(../Pictures/site2pic2.jpg);  max-width: 50%; height:250px; padding-left: 70%;"></div>
-        <p>app.listen()</p>                                  
-        <p>
-          In the picture above it is demonstrated how we can give the app a port run on. 
-          We use app.listen() to state the number of the port the app should run on. There is also included error handling in the code. For the purpose of how to proceed if the app doesn’t start properly, an if statement is used to detect any crashes on the part of the app. 
-          </p>
-
-        <h2>Callback Function</h2>
-        <h5>To pass a function</h5>
-        <p></p>                                  
-        <p>Notice the arrowheads. That is called a callback Function.  A Callback is a function passed as an argument to another function which then uses it. What it basically does it that it allows for the program to keep running the next thing it needs to do, until the function in the callback is done processing. And then call back to that function that is processing when its ready to be used.</p>
-          <p> in other terms also called an Asynchronous process. (unblocking.)</p>
-          <p> is asynchronous by default. That means that the app runs on a single thread processing multiple instructions.
-           Kind of like a waiter at a restaurant. The waiter takes and order, deliver the order to the kitchen and then proceeds to take orders. When the food is done the waiters goes back to the kitchen, take the food, and serves it.</p>
-          
+        <h2>CRUD api</h2>
+        <h5>Title description, Sep 2, 2017</h5>
+        <p>An CRUD api helps us take care of how we manage data. With CRUD we are able to create, read, update, and delete objects. We could be wanting to get all the data of an user  in a Json array, by  utilizing express to create a http request that gets the user by his id. </p>
+        <p></p>
       </div>
-    </div>
-    
+   
+    <!--
     <div class="footer">
       <h2>Footer</h2>
     </div>
-    
-    </body>
-    </html>
-
-
-
-
-
+  -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
