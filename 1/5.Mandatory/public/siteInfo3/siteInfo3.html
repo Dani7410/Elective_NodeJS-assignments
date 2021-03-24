@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="../CssStyling/welcome.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/welcome"><img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png" alt="" width="100" height="50" class="d-inline-block align-top">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/siteInfo1">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="/siteInfo2">Development environment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/siteInfo3">Routing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/siteInfo4">Nodemon & cross-env</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="a">
+    <h1>Routing</h1>
+    </div>
+
+    <div class="row">
+      <div class="side">
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
+        <a href="https://nodejs.org/en/">
+          <div class="fakeimg" style="background-image: url(../Pictures/picture12.jpg);"></div>
+          </a>
+          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          <h3>More Text</h3>
+          <p>Lorem ipsum dolor sit ame.</p>
+          <a href="https://www.npmjs.com/">
+          <div class="fakeimg" style="background-image: url(../Pictures/picture15.png); height: 20%;"></div><br>
+          </a>
+          <a href="https://nodemon.io/">
+          <div class="fakeimg" style="background-image: url(../Pictures/nodemon.jpg); height: 30%;"></div><br>
+          </a>
+      </div>
+      <div class="main">
+        <h2>How to</h2>
+        <h5>Title description, March 24, 2021</h5>
+        <div class="fakeimg" style="background-image: url(../Pictures/picture8.jpg); height:200px; box-shadow: 10px 10px 8px #000000;"></div>
+        <p></p>
+        <p>To route is to send the right files in the direction you want. It could be your html pages.</p>
+        <p>If you have an Html page that is nice and good looking, you want to put it on a display, don’t you? </p>
+        <p>Check the following pictures and information on how easy you can route your website with node.js and express.
+        <br>
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2017</h5>
+        <div class="fakeimg" style="background-image: url(../Pictures/Picture9.jpg); height:100; width: 1000px;">Image</div>
+        <p>Some text..</p>
+        <p>In the picture above you can see how a simple route to a html page is handled.</p>
+        <p>First we have the app.get(“/”) which tells us what http protocol we’re using.  </p>
+        <p>the req(request) is a object with information about the http request that startet the event.</p>
+        <p> With res(response) we send back the desired http response. That which is our html page.</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

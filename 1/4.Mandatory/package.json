@@ -1,0 +1,20 @@
+{
+  "name": "4.Mandatory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "cross-env PORT=9090 nodemon.cmd app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

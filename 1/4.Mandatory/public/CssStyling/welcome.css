@@ -1,0 +1,44 @@
+body {
+    background: rgb(37, 41, 61);
+}
+
+h1 {
+    color: aliceblue;
+}
+
+div.a {
+   text-align: center; 
+}
+
+
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    position: relative;
+
+
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 10.0;
+    
+}
+
+
+
