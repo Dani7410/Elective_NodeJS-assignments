@@ -14,6 +14,12 @@ app.get("/", (req,res) =>{
     res.send(header + footer);
 });
 
+app.get("/skærm", (res, req) =>{
+    res.send()
+})
+"pleasure in the job puts perfection in the work"
+"-Aristotle"
+
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, error => {
     if(error){
