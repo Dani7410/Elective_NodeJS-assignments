@@ -1,6 +1,10 @@
 #footer-about {
-    height: 5px;
+    color: aliceblue;
     display: flex;
     justify-content: center;
-}
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;            /* Footer height */
+  }
 

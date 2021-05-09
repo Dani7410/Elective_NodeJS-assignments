@@ -1,77 +1,7 @@
 body {
-    background: rgb(37, 41, 61);
+    background: linear-gradient(to right, rgb(92, 133, 221) , rgb(113, 46, 221));
 }
 
 
 
-div.a {
-   text-align: center; 
-}
 
-.carousel-item{
-    height: 40rem;
-    background: #777;
-    position: relative;
-
-
-}
-
-/* div {
-    height: 200px;
-    width: 400px;
-    
-
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
-} */
-
-
-/*
-.container{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 50px;
-    
-}
-
-.overlay-image{
-    position:absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;
-    height: auto;
-    opacity: 0.7;
-}*/
-
-.d-block{
-    opacity: 0.8;
-
-}
-
-.card{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-        
-}
-
-.header {
-    padding: 80px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-  }
-
-  p{
-    font-size: 15px;
-  }

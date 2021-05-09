@@ -1,0 +1,22 @@
+
+
+.carousel-item{
+    height: 35rem;
+    background: #777;
+    position: relative;
+}
+
+.d-block{
+    opacity: 0.8;
+}
+
+.card{
+    margin: 20px 10px;
+    box-shadow: 10px 10px 8px #1a1919;
+}
+
+
+
+
+
+
