@@ -27,9 +27,10 @@ router.post("/api/contact", (req, res) => {
 
 
 const mailOptions = {
-    to: 'joketovicarbejde@gmail.com',
     from: req.body.name + '<' + req.body.email + '>',
+    to: 'joketovicarbejde@gmail.com',
     subject: req.body.subject,
+    email: req.body.email,
     text: req.body.message
     };
 

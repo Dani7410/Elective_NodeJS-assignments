@@ -19,7 +19,8 @@ app.use(contactRouter.router);
 
 const footer = fs.readFileSync(__dirname + "/public/Footer/footer.html", "utf-8");
 const header = fs.readFileSync(__dirname + "/public/Header/header.html", "utf-8");
-const mainContent1 = fs.readFileSync(__dirname + "/public/MainContent1/mainContent1.html", "utf-8");
+const mainContent1 = fs.readFileSync(__dirname + "/public/MainContent/mainContent.html", "utf-8");
+const progress = fs.readFileSync(__dirname + "/public/Progresspage/progresspage.html","utf-8")
 const projects = fs.readFileSync(__dirname + "/public/Projects/projects.html", "utf-8");
 const contact = fs.readFileSync(__dirname + "/public/Contact/contact.html", "utf-8");
 
@@ -34,6 +35,10 @@ app.get("/projects", (req,res) =>{
 app.get("/contact", (req,res) =>{
     res.send(header + contact + footer);
 });
+
+app.get("/progress", (req,res) =>{
+    res.send(header + progress + footer);
+})
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, error => {
